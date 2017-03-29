@@ -1,0 +1,66 @@
+*{
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+	
+}
+body{
+	background: url('') no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color:white;opacity: 0.3;
+}
+h1{
+	font-family: 'Oxygen', serif;
+	margin:7vh 0 10vh 0;
+}
+.content{
+	margin:0 auto;
+}
+.shadow{
+	box-shadow: 0 2px 25px #fff;	
+	border:1px solid white;
+}
+.quoteWindow{
+	width: 30%;
+	height:auto;
+	margin:6vh 0;
+}
+#quoteText{
+	font-family: 'Roboto', serif;
+	font-style:bold;
+	font-size:20px;
+	padding:2vw;
+	
+}
+#authorText{
+	font-family: 'Jim Nightshade', cursive;
+	text-align:right;
+	padding-right:2vw;
+}
+#buttons{
+	margin:2vw;
+	width:30%;
+}
+button{
+	padding:5px;
+}
+.footerImage{
+	margin-top:15vh;
+	max-width: 300px; 
+    max-height: 100px;
+}
+img{
+	width: 100%; height: 100%;
+}
+.footer {
+	width:auto;
+	text-align:center;
+	font-size:15px;
+	background-color:grey;
+}
+.footer div{
+	padding:1vh;
+}
