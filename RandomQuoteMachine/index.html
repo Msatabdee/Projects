@@ -14,6 +14,7 @@
 		<title>Random quote generator-Satabdee Mohapatra</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" media="screen" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
 		<link rel="dns-prefetch" href="//fonts.googleapis.com">
 	</head>
 	<body class="" cz-shortcut-listen="true">
@@ -22,15 +23,15 @@
 			<div class="row">
 			<center class="content">
 				<div id="heading"><h1>Your Quote Feed</h1></div>
-				<div class="quoteWindow textCenter shadow">
+				<div class="quoteWindow textCenter shadow dynamicBackgrounColor">
 					<p id="quoteText"></p>
 					<p id="authorText"></p>
 				</div>
 				<div id="buttons">
-					<a class="tweetQuote pull-left shadow" href="https://twitter.com/intent/tweet" data-size="large" target="_blank">
-						<button id="tweetQuote">Tweet</button>
+					<a class="tweetQuote pull-left " href="https://twitter.com/intent/tweet" data-size="large" target="_blank">
+						<i id="tweetQuote" class="fa fa-twitter-square fa-2x footerIcons footerIconsTwitter"></i>
 					</a>
-					<button id="newQuote" class="shadow pull-right">New Quote</button>
+					<button id="newQuote" class="shadow dynamicBackgrounColor pull-right">New Quote</button>
 				</div>
 				<div class="footerImage"><img src="images/footerImage.png" alt="flower Image"></div>
 			</center>
@@ -45,6 +46,7 @@
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
+  
 	</body>
 
 </html>

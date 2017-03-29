@@ -10,10 +10,23 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  color:white;opacity: 0.3;
+  color:white;opacity: 0.95;
 }
 h1{
 	font-family: 'Oxygen', serif;
+	font-size:4em;
+	text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
 	margin:7vh 0 10vh 0;
 }
 .content{
@@ -23,6 +36,9 @@ h1{
 	box-shadow: 0 2px 25px #fff;	
 	border:1px solid white;
 }
+.dynamicBackgrounColor{
+	
+}
 .quoteWindow{
 	width: 30%;
 	height:auto;
@@ -31,7 +47,7 @@ h1{
 #quoteText{
 	font-family: 'Roboto', serif;
 	font-style:bold;
-	font-size:20px;
+	font-size:27px;
 	padding:2vw;
 	
 }
@@ -47,6 +63,12 @@ h1{
 button{
 	padding:5px;
 }
+.tweetQuote{
+	
+}
+#tweetQuote{
+	background-color: white;border-radius:20%;padding:2px;
+}
 .footerImage{
 	margin-top:15vh;
 	max-width: 300px; 
@@ -59,7 +81,7 @@ img{
 	width:auto;
 	text-align:center;
 	font-size:15px;
-	background-color:grey;
+	background-color:black;
 }
 .footer div{
 	padding:1vh;
