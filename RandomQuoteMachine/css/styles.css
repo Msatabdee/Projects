@@ -85,3 +85,19 @@ img{
 	padding:1vh;background-color:black;text-align:center;
 	font-size:15px;
 }
+@media screen and (max-width: 480px) {
+  .quoteWindow{
+	width: 90%;
+	height:auto;
+	margin:1vh auto;
+  background-color:white;
+}
+}
+@media screen and (min-width: 480px) and (max-width:980px) {
+  .quoteWindow{
+	width: 60%;
+	height:auto;
+	margin:1vh auto;
+  background-color:white;
+}
+}
